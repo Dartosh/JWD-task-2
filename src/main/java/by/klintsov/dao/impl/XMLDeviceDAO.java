@@ -5,7 +5,7 @@ import by.klintsov.dao.IDeviceDAO;
 
 public class XMLDeviceDAO implements IDeviceDAO{
     @Override
-    public Device find() {
+    public Device findDevice() {
         //realization
         return null;
     }
