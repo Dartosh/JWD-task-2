@@ -1,8 +1,9 @@
 package by.klintsov.service;
 
 import by.klintsov.bean.Device;
+import by.klintsov.service.exception.ServiceException;
 
 public interface IStoreService {
-    void addNewDevice(Device device);
-    Device findDevice(/*criteria*/);
+    void addDevice(Device device) throws ServiceException;
+    Device findDevice(/*criteria*/) throws ServiceException;
 }

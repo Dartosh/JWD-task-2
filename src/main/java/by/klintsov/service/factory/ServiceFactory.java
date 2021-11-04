@@ -1,4 +1,4 @@
-package by.klintsov.service;
+package by.klintsov.service.factory;
 
 import by.klintsov.service.IStoreService;
 import by.klintsov.service.impl.StoreServiceImpl;

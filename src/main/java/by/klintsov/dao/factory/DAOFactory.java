@@ -1,4 +1,4 @@
-package by.klintsov.dao;
+package by.klintsov.dao.factory;
 
 import by.klintsov.dao.IDeviceDAO;
 import by.klintsov.dao.impl.XMLDeviceDAO;
@@ -12,7 +12,13 @@ public class DAOFactory {
         //realization
     }
 
+    public static DAOFactory getInstance() {
+        return instance;
+    }
+
     public IDeviceDAO getDeviceDAO() {
         return xmlDeviceImpl;
     }
+
+
 }
