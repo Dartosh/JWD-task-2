@@ -1,6 +1,7 @@
 package by.klintsov.service.impl;
 
-import by.klintsov.bean.Device;
+
+import by.klintsov.entity.Device;
 import by.klintsov.service.IStoreService;
 import by.klintsov.service.exception.ServiceException;
 
@@ -12,7 +13,7 @@ public final class StoreServiceImpl implements IStoreService {
     }
 
     @Override
-    public Device findDevice(/*criteria*/) throws ServiceException {
+    public Device findDevice(Criteria criteria) throws ServiceException {
         return null;
     }
 }

@@ -1,4 +1,4 @@
-package by.klintsov;
+package by.klintsov.main;
 
 /**
  * Hello world!

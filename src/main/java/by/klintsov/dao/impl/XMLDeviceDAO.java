@@ -1,12 +1,13 @@
 package by.klintsov.dao.impl;
 
-import by.klintsov.bean.Device;
+
 import by.klintsov.dao.IDeviceDAO;
 import by.klintsov.dao.exception.DAOException;
+import by.klintsov.entity.Device;
 
 public class XMLDeviceDAO implements IDeviceDAO{
     @Override
-    public Device findDevice() throws DAOException {
+    public Device findDevice(Criteria criteria) throws DAOException {
         //realization
         return null;
     }
