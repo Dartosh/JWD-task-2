@@ -1,7 +1,5 @@
 package by.klintsov.entity;
 
-import java.util.Objects;
-
 public abstract class Device {
     private float cost;
 
@@ -24,13 +22,13 @@ public abstract class Device {
     public String toString() {
         return "Device{\n" +
                 "cost: " + cost +
-                "\n}0";
+                "\n}";
     }
 
     @Override
     public int hashCode() {
         int result;
-        int floatAsInt = Float.floatToIntBits(cost);
+        int floatAsInt = (int) cost;
         result = 31 * floatAsInt;
         return result;
     }
