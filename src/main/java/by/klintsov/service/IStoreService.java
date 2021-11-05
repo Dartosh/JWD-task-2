@@ -5,5 +5,5 @@ import by.klintsov.service.exception.ServiceException;
 
 public interface IStoreService {
     void addDevice(Device device) throws ServiceException;
-    Device findDevice(Criteria criteria throws ServiceException;
+    Device findDevice(Criteria criteria) throws ServiceException;
 }
